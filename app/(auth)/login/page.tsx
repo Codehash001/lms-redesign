@@ -69,8 +69,8 @@ export default function LoginPage() {
               <Image
                 src="/uni-logo.png"
                 alt="University Logo"
-                width={80}
-                height={80}
+                width={50}
+                height={50}
                 className="rounded-full"
               />
             </div>
