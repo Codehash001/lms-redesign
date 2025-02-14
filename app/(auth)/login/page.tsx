@@ -56,22 +56,22 @@ export default function LoginPage() {
           <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000" />
         </div>
 
-        {/* Card Content */}
+
         <motion.div 
           className="relative backdrop-blur-sm bg-white/80 p-8 rounded-2xl shadow-xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          {/* Logo and Title */}
+
           <div className="text-center space-y-6 mb-8">
             <div className="flex items-center justify-center">
               <Image
                 src="/uni-logo.png"
                 alt="University Logo"
-                width={50}
-                height={50}
-                className="rounded-full"
+                width={100}
+                height={100}
+                className=""
               />
             </div>
             <div className="space-y-2">
@@ -84,7 +84,7 @@ export default function LoginPage() {
             </div>
           </div>
 
-          {/* Login Form */}
+
           <form onSubmit={handleLogin} className="space-y-6">
             <div className="space-y-4">
               <div className="space-y-2">
